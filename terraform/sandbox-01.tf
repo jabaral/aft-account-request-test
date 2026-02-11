@@ -16,6 +16,7 @@ module "sandbox_account_01" {
 
   account_tags = {
     "ABC:Owner"       = "jabaral+ct_sandbox_01_testing@amazon.com"
+    "ABC:Division"    = "ENT"
     "ABC:Environment" = "Sandbox"
     "ABC:CostCenter"  = "123456"
     "ABC:Vended"      = "true"

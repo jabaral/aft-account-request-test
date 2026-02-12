@@ -5,17 +5,17 @@ module "sandbox_account_01" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "jabaral+ct_sandbox_01_testing@amazon.com"
+    AccountEmail = "jabaral+ct_sandbox_02_testing@amazon.com"
     AccountName  = "sandbox-account-01"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail     = "jabaral+ct_sandbox_01_testing@amazon.com"
+    SSOUserEmail     = "jabaral+ct_sandbox_02_testing@amazon.com"
     SSOUserFirstName = "Johan"
     SSOUserLastName  = "Baron"
   }
 
   account_tags = {
-    "ABC:Owner"       = "jabaral+ct_sandbox_01_testing@amazon.com"
+    "ABC:Owner"       = "jabaral+ct_sandbox_02_testing@amazon.com"
     "ABC:Division"    = "ENT"
     "ABC:Environment" = "Sandbox"
     "ABC:CostCenter"  = "123456"

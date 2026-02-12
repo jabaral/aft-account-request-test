@@ -6,7 +6,7 @@ module "sandbox_account_01" {
 
   control_tower_parameters = {
     AccountEmail = "jabaral+ct_sandbox_02_testing@amazon.com"
-    AccountName  = "sandbox-account-01"
+    AccountName  = "sandbox-account-02"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail     = "jabaral+ct_sandbox_02_testing@amazon.com"

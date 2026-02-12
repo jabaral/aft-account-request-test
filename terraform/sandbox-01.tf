@@ -20,7 +20,6 @@ module "sandbox_account_01" {
     "ABC:Environment" = "Sandbox"
     "ABC:CostCenter"  = "123456"
     "ABC:Vended"      = "true"
-    "ABC:DivCode"     = "102"
     "ABC:BUCode"      = "ABC003"
     "ABC:Project"     = "123456"
   }

@@ -29,10 +29,10 @@ module "sandbox_account_01" {
     change_reason       = "testing the account vending process"
   }
 
-#   custom_fields = {
-#     custom1 = "a"
-#     custom2 = "b"
-#   }
+  custom_fields = {
+    custom1 = "a"
+    custom2 = "b"
+  }
 
 #   account_customizations_name = "sandbox-customizations"
 }

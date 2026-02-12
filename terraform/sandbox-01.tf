@@ -1,21 +1,21 @@
-# # Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
-# # SPDX-License-Identifier: Apache-2.0
-# #
+# Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+#
 # module "sandbox_account_01" {
 #   source = "./modules/aft-account-request"
 
 #   control_tower_parameters = {
-#     AccountEmail = "jabaral+ct_sandbox_02_testing@amazon.com"
-#     AccountName  = "sandbox-account-02"
+#     AccountEmail = "jabaral+ct_sandbox_01_testing@amazon.com"
+#     AccountName  = "sandbox-account-01"
 #     # Syntax for top-level OU
 #     ManagedOrganizationalUnit = "Sandbox"
-#     SSOUserEmail     = "jabaral+ct_sandbox_02_testing@amazon.com"
+#     SSOUserEmail     = "jabaral+ct_sandbox_01_testing@amazon.com"
 #     SSOUserFirstName = "Johan"
 #     SSOUserLastName  = "Baron"
 #   }
 
 #   account_tags = {
-#     "ABC:Owner"       = "jabaral+ct_sandbox_02_testing@amazon.com"
+#     "ABC:Owner"       = "jabaral+ct_sandbox_01_testing@amazon.com"
 #     "ABC:Division"    = "ENT"
 #     "ABC:Environment" = "Sandbox"
 #     "ABC:CostCenter"  = "123456"
@@ -34,5 +34,5 @@
 #     custom2 = "b"
 #   }
 
-# #   account_customizations_name = "sandbox-customizations"
-# }
+#   account_customizations_name = "sandbox-customizations"
+}

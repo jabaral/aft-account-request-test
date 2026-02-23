@@ -9,9 +9,9 @@ module "sandbox_account_04" {
     AccountName  = "sandbox-account-04"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail     = "jabaral+ct_sandbox_04_testing@amazon.com"
-    SSOUserFirstName = "Johan"
-    SSOUserLastName  = "Baron"
+    SSOUserEmail              = "jabaral+ct_sandbox_04_testing@amazon.com"
+    SSOUserFirstName          = "Johan"
+    SSOUserLastName           = "Baron"
   }
 
   account_tags = {
@@ -32,6 +32,7 @@ module "sandbox_account_04" {
   custom_fields = {
     custom1 = "a"
     custom2 = "b"
+    trigger = "update-2026-02-23"
   }
 
   account_customizations_name = "sandbox-customizations"

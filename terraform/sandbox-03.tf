@@ -9,9 +9,9 @@ module "sandbox_account_03" {
     AccountName  = "sandbox-account-03"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail     = "jabaral+ct_sandbox_03_testing@amazon.com"
-    SSOUserFirstName = "Johan"
-    SSOUserLastName  = "Baron"
+    SSOUserEmail              = "jabaral+ct_sandbox_03_testing@amazon.com"
+    SSOUserFirstName          = "Johan"
+    SSOUserLastName           = "Baron"
   }
 
   account_tags = {
@@ -34,5 +34,5 @@ module "sandbox_account_03" {
     custom2 = "b"
   }
 
-#   account_customizations_name = "sandbox-customizations"
+  #   account_customizations_name = "sandbox-customizations"
 }

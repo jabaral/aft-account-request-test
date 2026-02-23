@@ -32,7 +32,7 @@ module "sandbox_account_04" {
   custom_fields = {
     custom1 = "a"
     custom2 = "b"
-    trigger = "update-2026-02-23"
+    trigger = "update-2026-02-23-1529"
   }
 
   account_customizations_name = "sandbox-customizations"
